@@ -4,6 +4,9 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "axios": "^1.3.6",
-    "react-router-dom": "^6.10.0"
+    "react-router-dom": "^6.10.0",
+    "build": "cd ../mindfulpath-backend && npm run build && cd ../mindfulpath-frontend && npm run build && cd ../ && cp -r mindfulpath-frontend/build mindfulpath-backend/build"
+
   }
+  
 }
