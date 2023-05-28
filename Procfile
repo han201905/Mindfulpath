@@ -1,1 +1,1 @@
-web: node App.js && npm start
+web: node /mindfulpath-frontend/src/App.js && npm start
