@@ -4,6 +4,12 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "axios": "^1.3.6",
+    "concurrently": "^8.0.1",
     "react-router-dom": "^6.10.0"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix mindfulpath-backend\" \"npm run start --prefix mindfulpath-frontend\"",
+    "heroku-postbuild": "npm install --prefix mindfulpath-frontend && npm run build --prefix mindfulpath-frontend"
   }
+  
 }
