@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "concurrently \"npm run start --prefix mindfulpath-backend\" \"npm run start --prefix mindfulpath-frontend\"",
+    "build": "react-scripts build",
     "heroku-postbuild": "npm install && npm run build"
   },
   "engines": {
