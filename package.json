@@ -10,6 +10,9 @@
   "scripts": {
     "start": "concurrently \"npm run start --prefix mindfulpath-backend\" \"npm run start --prefix mindfulpath-frontend\"",
     "heroku-postbuild": "npm install --prefix mindfulpath-frontend && npm run build --prefix mindfulpath-frontend"
+  },
+  "engines": {
+    "node": "18.16.0"
   }
   
 }
